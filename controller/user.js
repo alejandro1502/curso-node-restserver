@@ -28,8 +28,8 @@ const userPost = (req, res) => {
 
     res.status(201).json({
         msg: "post API",
-        nombre,
-        age
+        // nombre,
+        // age
     })
 }
 
